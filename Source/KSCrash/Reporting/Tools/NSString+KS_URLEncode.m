@@ -24,7 +24,7 @@
 // THE SOFTWARE.
 //
 
-#import "NSString+URLEncode.h"
+#import "NSString+KS_URLEncode.h"
 
 @implementation NSString (KS_URLEncode)
 
