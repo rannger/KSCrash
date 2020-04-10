@@ -527,7 +527,7 @@ crashDescriptionKeys:(NSArray*) crashDescriptionKeys
 - (NSURL*) urlWithAppIdentifier:(NSString*) appIdentifier
 {
     NSString* urlString = [NSString stringWithFormat:@"https://sdk.hockeyapp.net/api/2/apps/%@/crashes",
-                           [appIdentifier URLEncoded]];
+                           [appIdentifier ks_URLEncoded]];
     return [NSURL URLWithString:urlString];
 }
 
