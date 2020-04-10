@@ -26,9 +26,9 @@
 
 #import "NSString+URLEncode.h"
 
-@implementation NSString (URLEncode)
+@implementation NSString (KS_URLEncode)
 
-- (NSString*) URLEncoded
+- (NSString*) ks_URLEncoded
 {
 #if __IPHONE_OS_VERSION_MAX_ALLOWED < 70000
     return [self stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
