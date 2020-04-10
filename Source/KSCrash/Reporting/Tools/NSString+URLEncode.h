@@ -26,8 +26,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (URLEncode)
+@interface NSString (KS_URLEncode)
 
-- (NSString*) URLEncoded;
+- (NSString*) ks_URLEncoded;
 
 @end
