@@ -39,7 +39,7 @@
 #import "NSError+SimpleConstructor.h"
 #import <mach/machine.h>
 #import "KSCrashMonitor_System.h"
-#import "NSString+URLEncode.h"
+#import "NSString+KS_URLEncode.h"
 
 //#define KSLogger_LocalLevel TRACE
 #import "KSLogger.h"
