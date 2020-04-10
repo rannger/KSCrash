@@ -35,6 +35,10 @@ extern "C" {
 #include <mach/mach_types.h>
 #include <stdbool.h>
 #include <sys/ucontext.h>
+    
+#ifdef __arm64__  
+#include <sys/_types/_ucontext64.h>
+#endif  
 
 #ifdef __arm64__
     #define STRUCT_MCONTEXT_L _STRUCT_MCONTEXT64
